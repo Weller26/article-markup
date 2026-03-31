@@ -54,6 +54,11 @@ code {
     color: gray;
 }
 
+nav ul {
+    padding-left: 38px;
+    margin: 0;
+}
+
 nav ul li {
     font-family: "Lucida Grande", sans-serif;
     font-size: 24px;
@@ -62,7 +67,7 @@ nav ul li {
     list-style: none;
     text-decoration: none;
     display: inline-block;
-    padding: 0 15px;
+    padding-right: 30px;
 }
 
 nav ul li a {
@@ -80,7 +85,22 @@ nav ul li a.active {
 }
 
 @media (max-width: 800px) {
-    /* Тут пиши стили для мобилки.
-        Стили применятся только когда страничка будет ≤800px шириной
-     */
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        padding-left: 0;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    nav ul li {
+        font-size: 20px;
+    }
 }
