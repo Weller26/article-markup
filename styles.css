@@ -4,18 +4,15 @@ nav {
     padding-bottom: 0px;
 }
 
-body {
+.container {
     width: 700px;
     margin: auto;
-}
-
-.container {
     color:rgba(0,0,0,0.84);
     text-align: left;
 }
 
 header {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
 
 h1 {
@@ -39,6 +36,7 @@ p {
     font-family: Georgia, sans-serif;
     font-size: 21px;
     line-height: 33px;
+    margin-top: 10px;
 }
 
 img {
@@ -48,7 +46,7 @@ img {
 
 code {
     font-family: "Courier New", monospace;
-    color: gray;
+    background-color: rgba(55, 92, 64, 0.2);
 }
 
 nav ul li {
