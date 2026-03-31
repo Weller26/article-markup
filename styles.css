@@ -1,15 +1,12 @@
 nav {
     border-top: 1px solid #333333;
     border-bottom: 1px solid #333333;
-    padding-bottom: 0px;
-}
-
-body {
-    width: 700px;
-    margin: auto;
+    padding: 5px;
 }
 
 .container {
+    margin: auto;
+    width: 700px;
     color:rgba(0,0,0,0.84);
     text-align: left;
 }
@@ -41,6 +38,12 @@ p {
     line-height: 33px;
 }
 
+.logo {
+    margin-left: 38px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 img {
     margin-top: 43px;
     margin-bottom: 37px;
@@ -52,7 +55,7 @@ code {
 }
 
 nav ul li {
-    font-family: LucidaGrande;
+    font-family: "Lucida Grande", sans-serif;
     font-size: 24px;
     text-align: left;
     line-height: 36px;
