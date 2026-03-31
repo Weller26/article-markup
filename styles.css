@@ -5,19 +5,46 @@ body {
     margin: auto;
 }
 
+.container {
+    color:rgba(0,0,0,0.84);
+    text-align: left;
+}
+
+header {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+}
+
 h1 {
     font-family: LucidaGrande-Bold, sans-serif;
+    /*font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;*/
     font-size: 42px;
+    line-height: 44px;
+    margin-bottom: 10px;
 }
 
 h2 {
+    /*font-family: Georgia, Cambria, "Times New Roman", Times, serif*/
     font-family: LucidaGrande-Bold, sans-serif;
     font-size: 34px;
+    line-height: 39px;
+    margin-top: 55px;
+    margin-bottom: 10px;
 }
 
 p {
     font-family: Georgia, sans-serif;
     font-size: 21px;
+    line-height: 33px;
+}
+
+img {
+    margin-top: 43px;
+    margin-bottom: 37px;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    color: gray;
 }
 
 @media (max-width: 800px) {
