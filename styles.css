@@ -80,4 +80,44 @@ nav ul li a.active {
     /* Тут пиши стили для мобилки.
         Стили применятся только когда страничка будет ≤800px шириной
      */
+    .container {
+        width: 520px;
+    }
+
+    h1 {
+        /*font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;*/
+        font-size: 26px;
+        line-height: 44px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        /*font-family: Georgia, Cambria, "Times New Roman", Times, serif*/
+        font-size: 22px;
+        line-height: 22px;
+        margin-top: 25px;
+        margin-bottom: 6px;
+    }
+
+    p {
+        font-family: Georgia, sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    img {
+        width: 520px;
+        margin-bottom: 24px;
+        margin-top: 25px;
+    }
+
+    .logo {
+        width: 101px;
+    }
+
+    .end {
+        display: none;
+    }
 }
